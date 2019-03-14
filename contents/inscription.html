@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Lyam Durand">
+              
+    <title>Maison de la culture - Basketball</title>
+              
+    <!-- Bootstrap + FontAwesome -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+              
+    <!-- Custom styles for this template -->
+    <link href="../css/agency.min.css" rel="stylesheet">
+              
+</head>
+
+<body id="page-top">
+    
+    <header class="masthead">
+      <div class="container">
+        <div class="intro-text row">
+                <div class="col bg-light w-25 rounded text-dark py-3" >
+
+                    <form method="post" action="../php/Inscription.php" class="text-dark">
+                        <fieldset>
+                            <legend>
+                                Vos coordonnées
+                            </legend>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p>
+                                        <label for="Nom">Votre Nom *</label>:
+                                        <input class="form-control" type="text" placeholder="Nom" id="Nom" name="Nom" required>
+                                    </p>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>
+                                        <label for="Prenom">Prénom *</label>:
+                                        <input class="form-control" type="text" placeholder="Prenom" id="Prenom" name="Prenom" required>
+                                    </p>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>
+                                        <label for="Email">Adresse Mail *</label>:
+                                        <input class="form-control" type="email" placeholder="xxxxxx@xxxx.xx" id="Email" name="Email" required>
+                                    </p>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>
+                                        <label for="Password">Mot de passe</label>:
+                                        <input class="form-control" type="password"  id="Password" name="Password" required>
+                                    </p>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>
+                                        <label for="Telephone">N° de téléphone</label>:
+                                        <input class="form-control" type="tel" placeholder="XX XX XX XX XX" id="Telephone" name="Telephone">
+                                    </p>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>
+                                        <label for="Adresse">Adresse</label>:
+                                        <input class="form-control" type="text"  id="Adresse" name="Adresse">
+                                    </p>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>
+                                        <label for="Ville">Ville</label>:
+                                        <input class="form-control" type="text"  id="Ville" name="Ville">
+                                    </p>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>
+                                        <label for="CP">Code postal</label>:
+                                        <input class="form-control" type="text"  id="CP" name="CP">
+                                    </p>
+                                </div>
+                                
+
+                            </div>
+                            <!-- /row -->
+                            <div class="row 2ndrow-form">
+                                <div class="col-sm-6">
+                                    <p>
+                                        <label>Civilité</label>
+                                    </p>
+                                    <input type="radio" name="civilite" value="M" id="M">
+                                    <label for="M">M.</label>
+                                    <input type="radio" name="civilite" value="F" id="Mme">
+                                    <label for="Mme">Mme</label>
+                                </div>
+                                <div class="col-sm-6">
+                                    <p>
+                                        <label for="DateNaissance">Date de Naissance</label>
+                                        <input class="form-control" type="tel" placeholder="JJ-MM-YYYY" id="DateNaissance" name="DateNaissance">
+                                    </p>
+                                </div>
+                            </div>
+                            <!--/row-->
+                        </fieldset>
+                        <fieldset class=" mt-3">
+                            <legend class="text-dark">
+                                Si vous êtes un Organisateur
+                            </legend>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <label for="CodeOrga"> Entrez ici le code fourni</label>
+                                </div>
+                                <div class="col-sm-6">
+                                    <input class="form-control" type="text" placeholder="XXXXXX" id="CodeOrga" name="CodeOrga">
+                                </div>
+                            </div>
+                        </fieldset>
+                        <br>
+
+                        <input type="submit" class="btn btn-dark my-2" value="Envoyer">
+                    </form>
+                    
+            </div>
+        </div>
+      </div>
+    </header>
+    
+    <footer class="bg-dark text-white">
+        <div class="container pb-2">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; Maison de la culture de Nîmes - 2023</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                            <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li class="list-inline-item">
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">Terms of Use</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<!-- Bootstrap core JavaScript -->
+  <script src="../vendor/jquery/jquery.min.js"></script>
+  <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Contact form JavaScript -->
+  <script src="../js/jqBootstrapValidation.js"></script>
+  <script src="../js/contact_me.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="../js/agency.min.js"></script>
+
+  <!-- Custom js-->
+  <script src="../js/app.min.js"></script>
+
+</body>
+</html>
